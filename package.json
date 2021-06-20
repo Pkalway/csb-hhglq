@@ -1,0 +1,14 @@
+{
+  "name": "employee-per-quater",
+  "version": "1.0.0",
+  "description": "Write a python program to \n- parse the attached employee.csv file\n- Normalize the date fields into a standard format\n- group the employee list based on the field \"Quarter of Joining\" and sorted by the field \"Date of Birth\" ",
+  "configurations": [
+    {
+      "name": "employee_per_quater",
+      "type": "python",
+      "request": "launch",
+      "program": "employee_per_quater.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
